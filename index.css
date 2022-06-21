@@ -1,0 +1,99 @@
+body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(https://media.istockphoto.com/photos/hermometer-shows-the-temperature-is-hot-in-the-sky-picture-id1269437391?k=20&m=1269437391&s=612x612&w=0&h=7MgC_exOW8rRaHGyLQZFmT-tgNkJri2wNWiTGxXzYxw=);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+.container{
+        height:100vh ;
+        min-width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.form{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        background-color: whitesmoke;
+        padding: 10px 20px;
+        box-shadow: 5px 4px 9px gray;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+.form button{
+        margin: 25px 0px;
+}
+.btn1{
+        padding:12px 25px;
+        background-color:orange; 
+        color: white;
+        border:none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: bold;
+}
+.btn2{
+        padding:12px 35px;
+        background-color:#ff4c29;   
+        color: white;
+        border:none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: bold;   
+}
+.para{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        color: #0b1f2e;
+}
+.form input {
+        padding: 7px 22px;
+        border: 2px solid #d2d2d2;
+        border-radius: 20px;
+}
+input:focus{
+        outline: none;
+        border: 2px solid #d2d2d2;     
+}
+label{
+        font-size: large;
+        font-weight: lighter;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0px 7px;
+        color: #2c394b;
+}
+.input11{
+        padding-top: 15px;
+}
+.input11 input{
+        margin-left: 24px;
+}
+.buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}
+.btn1:hover{
+      background-color: white;
+      color: orange;
+      border: 2px solid orange;  
+}
+.btn2:hover{
+        background-color: transparent;
+        color:#ff4c29;
+        border: 1px solid #ff4c29;
+}
